@@ -4,12 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarApplication {
+public class VehicleApplication {
 
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarApplication.class, args);
+		SpringApplication.run(VehicleApplication.class, args);
 		Car c = new Car("Ford", "mustang",70000,1968,"yellow");
 		System.out.println(" Model " + c.getModel() + " Make: " + c.getMake() + " Price " +c.getPrice() +  " Year " + c.getYear() + " Color" + c.getColor());
 		Car	 c1 = new Car("Chevy", "Corvette", 80000,1963, "red");
@@ -26,6 +26,11 @@ public class CarApplication {
 		System.out.println(" Model " + b.getModel() + " Make " + b.getMake() + " Price " + b.getPrice() + " Year " + b.getYear() + " Color " + b.getColor());
 		Truck t2 = new Truck(" Ford ", " Raptor ", 73590, 2020, " Blue ");
 		System.out.println(" Model " + b.getModel() + " Make " + b.getMake() + " Price " + b.getPrice() + " Year " + b.getYear() + " Color " + b.getColor());
+		Boat boat = new Boat(" Apache ", " Warpath ", 401000, 2021, " Red ");
+		System.out.println(" Model " + b.getModel() + " Make " + b.getMake() + " Price " + b.getPrice() + " Year " + b.getYear() + " Color " + b.getColor());
+		Boat boat1 = new Boat(" Velocity ", " Supersport ", 38500, 2006, " Blue ");
+		System.out.println(" Model " + b.getModel() + " Make " + b.getMake() + " Price " + b.getPrice() + " Year " + b.getYear() + " Color " + b.getColor());
+
 	}
 
 }

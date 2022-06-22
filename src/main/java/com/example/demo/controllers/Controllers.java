@@ -1,6 +1,7 @@
 package com.example.demo.controllers;
 
 import com.example.demo.Bike;
+import com.example.demo.Boat;
 import com.example.demo.Car;
 import com.example.demo.Truck;
 import org.springframework.ui.Model;
@@ -35,8 +36,16 @@ public class Controllers {
     public List<Truck> getTruck(Model model){
         List<Truck> truckList = new ArrayList<>();
         truckList.add(new Truck(" Dodge ", " Ram ", 50000, 2023, " Orange "));
-        System.out.println( " This is the truck list" + truckList );
+        System.out.println("This is the truck list" + truckList);
         return truckList;
+    }
+
+    @RequestMapping( value = "/Boats", method = RequestMethod.GET)
+    public List<Boat> getBoat(Model model){
+        List<Boat> boatList = new ArrayList<>();
+        boatList.add(new Boat(" Outerlimits ", " Legacy ", 259000, 2021, " Yellow "));
+        System.out.println("This is the truck list" + boatList);
+        return boatList;
     }
 
 }
