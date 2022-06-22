@@ -1,0 +1,4 @@
+This is a list of cars, bikes, and trucks.
+I used the getters and setters to merge the main class to the car, truck, and bike classes.
+This file also used spring boot to link to the generic HTML file.
+Saving application and may include something like boats for more practice.
