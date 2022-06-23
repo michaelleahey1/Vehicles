@@ -1,5 +1,6 @@
 package com.example.demo.controllers;
 
+
 import com.example.demo.Bike;
 import com.example.demo.Boat;
 import com.example.demo.Car;
@@ -9,13 +10,19 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 
 public class Controllers {
+
+
     @RequestMapping(value = "/Cars", method = RequestMethod.GET)
     public List<Car> getCar(Model model){
         List<Car> carList = new ArrayList<>( );
