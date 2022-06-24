@@ -53,15 +53,18 @@ public class Car {
     public void setColor(String color) {
         this.color = color;
     }
-
+    /*
+    this was not needed for this project, but overriding the toString method will be handy in the future.
+    This method is overridden so that the object values can be returned.
     @Override
     public String toString() {
-        return "Car{" +
-                "model='" + model + '\'' +
-                ", make='" + make + '\'' +
-                ", price=" + price +
-                ", year=" + year +
-                ", color='" + color + '\'' +
-                '}';
+      return "Car{" +
+            "model='" + model + '\'' +
+            ", make='" + make + '\'' +
+            ", price=" + price +
+            ", year=" + year +
+            ", color='" + color + '\'' +
+            '}';
     }
+    */
 }

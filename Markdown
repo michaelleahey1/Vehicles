@@ -2,3 +2,7 @@ This is a list of cars, bikes, and trucks.
 I used the getters and setters to merge the main class to the car, truck, and bike classes.
 This file also used spring boot to link to the generic HTML file.
 Saving application and may include something like boats for more practice.
+Included the boat class for practice and changed the system.out to logger.info.
+Logger.info caused several problems before finally working. Kelso indicated people should use
+logger.info instead system.out.
+Also blocked out the toString override method, it wasn't needed for this project.
