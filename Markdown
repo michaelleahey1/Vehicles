@@ -8,6 +8,7 @@ logger.info instead system.out.
 Also blocked out the toString override method, it wasn't needed for this project.
 Updated the pom.xml file to bring in the the <packaging>jar</packaging> below the parent class in between artifact
 and version.
+Remember to go to maven and click on package to bring in the Jar.
 Under the properties section in pom.xml add <start-class>com.example.demo.VehicleApplication</start-class>.
 the start class tags you enter the .com then .name of your main class.
 
