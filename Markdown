@@ -6,3 +6,7 @@ Included the boat class for practice and changed the system.out to logger.info.
 Logger.info caused several problems before finally working. Kelso indicated people should use
 logger.info instead system.out.
 Also blocked out the toString override method, it wasn't needed for this project.
+Updated the pom.xml file to bring in the the <packaging>jar</packaging> below the parent class in between artifact
+and version.
+Under the properties section in pom.xml add <start-class>com.example.demo.VehicleApplication</start-class>.
+the start class tags you enter the .com then .name of your main class.
