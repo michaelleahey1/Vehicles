@@ -10,3 +10,6 @@ Updated the pom.xml file to bring in the the <packaging>jar</packaging> below th
 and version.
 Under the properties section in pom.xml add <start-class>com.example.demo.VehicleApplication</start-class>.
 the start class tags you enter the .com then .name of your main class.
+
+You got this wrong on the quiz: @RequestMapping( value = "/Bikes", method = RequestMethod.GET) remember "/Bikes"
+is the command that brings this into the website. You knew this ya moron.
