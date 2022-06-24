@@ -10,11 +10,13 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>car</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>car</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>com.example.demo.VehicleApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
